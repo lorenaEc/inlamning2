@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./main.js" defer></script>
+</head>
+
+<body>
+    <section class="huvudrubriker">
+        <h1>My budget</h1>
+        <h3>New Entry</h3>
+    </section>
+
+    <div class="input-group">
+        <select id="select-type" class="form-select">
+            <option class="income"> + </option>
+            <option class="expense"> - </option>
+            <input type="text" class="form-control" id="input-discription" placeholder="Description" required>
+            <input type="number" class="form-control" id="input-value" placeholder="Value..." required>
+            <button class="btn btn-outline-secondary" type="button" id="addBtn">Add</button>
+
+        </select>
+    </div>
+
+    <div class="rest-container">
+
+        <h4>Income</h4>
+        <div class="incomeList">
+        </div>
+
+        <h4>Expense</h4>
+        <div class="expenseList">
+        </div>
+
+        <h4>Balance</h4>
+        <div class="balanceList">
+        </div>
+
+    </div>
+
+</body>
+
+</html>
