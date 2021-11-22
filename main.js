@@ -14,22 +14,17 @@ document.querySelector("#addBtn").addEventListener("click", function(e){
     let li = document.createElement("li")
     li.innerText = description + " " + money
     li.setAttribute("class", "list-group-item")
-    let btn = document.createElement("button")
-     btn.setAttribute("class", "removeBtn")
-     btn.textContent="Remove"
     //console.log(li)
 
     //if income
     if (option == "+") {
         document.querySelector("#myList1").appendChild(li)
-        document.querySelector("#myList1").appendChild(btn)
         myList1.push(money)
 
     }
 
     else {
         document.querySelector("#myList2").appendChild(li)
-        document.querySelector("#myList2").appendChild(btn)
         myList2.push(money)
     }
 
@@ -43,7 +38,7 @@ document.querySelector("#addBtn").addEventListener("click", function(e){
      
     }
     const incomes = document.querySelector(".incomeList")
-    incomes.textContent = incomeAmount
+    incomes.textContent = incomeAmount + " Kr"
 
     var expenseAmount = 0;
 
@@ -52,10 +47,11 @@ document.querySelector("#addBtn").addEventListener("click", function(e){
     }
 
     const expenses = document.querySelector(".expenseList")
-    expenses.textContent = expenseAmount
+    expenses.textContent = expenseAmount + " Kr"
+
 
     const balances = document.querySelector(".balanceList")
-    balances.textContent = incomeAmount - expenseAmount
+    balances.textContent = ((incomeAmount - expenseAmount) + " Kr")
 
  
 })

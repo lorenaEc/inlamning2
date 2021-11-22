@@ -1,0 +1,75 @@
+* {
+    list-style: none;
+}
+
+
+
+body{
+    text-align: center;
+   
+}
+
+
+.title{
+    height: 100px;
+}
+
+.title:hover{
+    background-color: rgb(63, 122, 3);
+}
+
+.title2{
+    margin-top: 30px;
+}
+
+.form-select{
+    height: 28px;
+    font-size: 1.2em;
+}
+
+.input-group{ 
+   margin-top: 40px;
+
+}
+ .form-control {
+    height: 25px;
+    font-size: 1.2em;
+}
+.btn-outline{
+    height: 30px;
+    font-size: 1.2em;
+}
+.btn-outline:hover{
+    background-color: rgb(63, 122, 3);
+   
+}
+
+.rest-container{
+
+    margin:auto;
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2em;
+    
+}
+
+.incomeList{
+    background-color: rgb(63, 122, 3);
+}
+
+.expenseList{
+    background-color: crimson;
+}
+
+.balanceList{
+    background-color: darkgoldenrod;
+}
+
+.list-group-item{
+    font-size: 1.3em;
+    padding-right: 20px;
+}
+
+
