@@ -1,46 +1,56 @@
 * {
     list-style: none;
+    margin-top: 30px;
 }
-
-
 
 body{
     text-align: center;
    
 }
+h4{
+    text-decoration: underline;
+}
 
+h2{
+    text-decoration: underline;
+}
 
 .title{
     height: 100px;
-}
+    color:rgb(108, 143, 112);
 
-.title:hover{
-    background-color: rgb(63, 122, 3);
 }
 
 .title2{
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .form-select{
     height: 28px;
     font-size: 1.2em;
+    border-radius: 5px;
+    
 }
 
 .input-group{ 
-   margin-top: 40px;
+   margin-top: 10px;
 
 }
+
  .form-control {
     height: 25px;
     font-size: 1.2em;
+    border-radius: 5px;
 }
+
 .btn-outline{
     height: 30px;
     font-size: 1.2em;
+    border-radius: 5px;
 }
+
 .btn-outline:hover{
-    background-color: rgb(63, 122, 3);
+    background-color: rgb(145, 168, 148);
    
 }
 
@@ -52,24 +62,39 @@ body{
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.2em;
-    
+       
 }
 
 .incomeList{
-    background-color: rgb(63, 122, 3);
+    color: rgb(44, 82, 6);
 }
 
 .expenseList{
-    background-color: crimson;
+    color:  rgb(146, 7, 7);  
 }
 
 .balanceList{
-    background-color: darkgoldenrod;
+   color: rgb(148, 108, 5); 
 }
 
-.list-group-item{
-    font-size: 1.3em;
-    padding-right: 20px;
+.inflow li{
+    padding-right: 50px;
+    font-size: 1.5em;
+    background-color:rgb(145, 168, 148);
+    margin: 5px;
+    margin-left: 200px;
+    margin-right: 250px;
 }
+
+.outflow li{
+    padding-right: 30px;
+    font-size: 1.5em;
+    background-color:rgb(228, 94, 94);
+    margin: 5px;
+    margin-left: 200px;
+    margin-right: 250px;
+}
+
+
 
 

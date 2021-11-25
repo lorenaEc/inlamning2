@@ -38,7 +38,7 @@ document.querySelector("#addBtn").addEventListener("click", function(e){
      
     }
     const incomes = document.querySelector(".incomeList")
-    incomes.textContent = incomeAmount + " Kr"
+    incomes.textContent = incomeAmount + " kr"
 
     var expenseAmount = 0;
 
@@ -47,11 +47,11 @@ document.querySelector("#addBtn").addEventListener("click", function(e){
     }
 
     const expenses = document.querySelector(".expenseList")
-    expenses.textContent = expenseAmount + " Kr"
+    expenses.textContent = expenseAmount + " kr"
 
 
     const balances = document.querySelector(".balanceList")
-    balances.textContent = ((incomeAmount - expenseAmount) + " Kr")
+    balances.textContent = ((incomeAmount - expenseAmount) + " kr")
 
  
 })
